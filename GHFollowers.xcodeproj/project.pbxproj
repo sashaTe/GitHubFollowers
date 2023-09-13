@@ -74,6 +74,7 @@
 		2882F9362A9632A4002B6FB9 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				2882F9452A9632A5002B6FB9 /* Info.plist */,
 				289BFF232AB1EBB000CFD5FE /* Models */,
 				289BFF222AB0C21100CFD5FE /* Support */,
 				289BFF1F2AB0C14100CFD5FE /* Screens */,
@@ -120,7 +121,6 @@
 				2882F9392A9632A4002B6FB9 /* SceneDelegate.swift */,
 				2882F9402A9632A5002B6FB9 /* Assets.xcassets */,
 				2882F9422A9632A5002B6FB9 /* LaunchScreen.storyboard */,
-				2882F9452A9632A5002B6FB9 /* Info.plist */,
 			);
 			path = Support;
 			sourceTree = "<group>";
