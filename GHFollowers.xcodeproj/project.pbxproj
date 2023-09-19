@@ -27,6 +27,7 @@
 		289BFF302AB35E2400CFD5FE /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289BFF2F2AB35E2400CFD5FE /* FollowerCell.swift */; };
 		289BFF322AB35EBD00CFD5FE /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289BFF312AB35EBD00CFD5FE /* GFAvatarImageView.swift */; };
 		28EDA6A72AB4DEB300757470 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EDA6A62AB4DEB300757470 /* UIHelper.swift */; };
+		28F2CBE42AB9F8A2009C20B6 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F2CBE32AB9F8A2009C20B6 /* GFEmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		289BFF2F2AB35E2400CFD5FE /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		289BFF312AB35EBD00CFD5FE /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		28EDA6A62AB4DEB300757470 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		28F2CBE32AB9F8A2009C20B6 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,13 +111,13 @@
 		289BFF202AB0C17C00CFD5FE /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				28F2CBE22AB9F870009C20B6 /* Labels */,
+				28F2CBE12AB9F826009C20B6 /* ViewControllers */,
+				28F2CBE02AB9F81A009C20B6 /* ImageViews */,
+				28F2CBDF2AB9F806009C20B6 /* TextFields */,
+				28F2CBDE2AB9F7F3009C20B6 /* Buttons */,
+				28F2CBDD2AB9F7EA009C20B6 /* Views */,
 				289BFF2E2AB35E0300CFD5FE /* Cells */,
-				289BFF112AB029E200CFD5FE /* GFButton.swift */,
-				289BFF132AB02E2800CFD5FE /* GFTextField.swift */,
-				289BFF172AB07A9300CFD5FE /* GFTitleLabel.swift */,
-				289BFF192AB07C7200CFD5FE /* GFBodyLabel.swift */,
-				289BFF1B2AB0811F00CFD5FE /* GFAlertVC.swift */,
-				289BFF312AB35EBD00CFD5FE /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -171,6 +173,55 @@
 				289BFF2F2AB35E2400CFD5FE /* FollowerCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		28F2CBDD2AB9F7EA009C20B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28F2CBE32AB9F8A2009C20B6 /* GFEmptyStateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		28F2CBDE2AB9F7F3009C20B6 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				289BFF112AB029E200CFD5FE /* GFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		28F2CBDF2AB9F806009C20B6 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				289BFF132AB02E2800CFD5FE /* GFTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		28F2CBE02AB9F81A009C20B6 /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				289BFF312AB35EBD00CFD5FE /* GFAvatarImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		28F2CBE12AB9F826009C20B6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				289BFF1B2AB0811F00CFD5FE /* GFAlertVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		28F2CBE22AB9F870009C20B6 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				289BFF192AB07C7200CFD5FE /* GFBodyLabel.swift */,
+				289BFF172AB07A9300CFD5FE /* GFTitleLabel.swift */,
+			);
+			path = Labels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +308,7 @@
 				289BFF182AB07A9300CFD5FE /* GFTitleLabel.swift in Sources */,
 				289BFF252AB1EBC100CFD5FE /* Follower.swift in Sources */,
 				289BFF1C2AB0811F00CFD5FE /* GFAlertVC.swift in Sources */,
+				28F2CBE42AB9F8A2009C20B6 /* GFEmptyStateView.swift in Sources */,
 				289BFF2A2AB27D7C00CFD5FE /* NetworkManager.swift in Sources */,
 				289BFF162AB0402100CFD5FE /* FollowerListVC.swift in Sources */,
 				289BFF102AAFD0D700CFD5FE /* FavoriteListVC.swift in Sources */,
