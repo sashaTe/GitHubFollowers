@@ -27,6 +27,7 @@
 		289BFF302AB35E2400CFD5FE /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289BFF2F2AB35E2400CFD5FE /* FollowerCell.swift */; };
 		289BFF322AB35EBD00CFD5FE /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289BFF312AB35EBD00CFD5FE /* GFAvatarImageView.swift */; };
 		28EDA6A72AB4DEB300757470 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EDA6A62AB4DEB300757470 /* UIHelper.swift */; };
+		28EDE8612ABB2195000A8D24 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EDE8602ABB2195000A8D24 /* UserInfoVC.swift */; };
 		28F2CBE42AB9F8A2009C20B6 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F2CBE32AB9F8A2009C20B6 /* GFEmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		289BFF2F2AB35E2400CFD5FE /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		289BFF312AB35EBD00CFD5FE /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		28EDA6A62AB4DEB300757470 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		28EDE8602ABB2195000A8D24 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 		28F2CBE32AB9F8A2009C20B6 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 				289BFF0D2AAFD0A000CFD5FE /* SearchVC.swift */,
 				289BFF152AB0402100CFD5FE /* FollowerListVC.swift */,
 				289BFF0F2AAFD0D700CFD5FE /* FavoriteListVC.swift */,
+				28EDE8602ABB2195000A8D24 /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				289BFF162AB0402100CFD5FE /* FollowerListVC.swift in Sources */,
 				289BFF102AAFD0D700CFD5FE /* FavoriteListVC.swift in Sources */,
 				2882F93A2A9632A4002B6FB9 /* SceneDelegate.swift in Sources */,
+				28EDE8612ABB2195000A8D24 /* UserInfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
