@@ -52,6 +52,8 @@ struct User: Codable {
     var public_gists: Int?
     let htmlUrl: String
     var following: Int?
+    var followers: Int?
     let createdAt: String
+    
     
 }
